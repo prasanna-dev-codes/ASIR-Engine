@@ -22,7 +22,7 @@ load_dotenv()   # loads GEMINI_API_KEY from .env file automatically
 # ---------------------------
 @dataclass
 class GeneratorConfig:
-    api_key: str = "AIzaSyD-EVPr3S55ZbH3CXiQcaqa521e-SFnmp0"
+    api_key: str = ""
     model_name: str = "gemini-2.5-flash"
     max_output_tokens: int = 1024
     temperature: float = 0.2
