@@ -1,0 +1,11 @@
+pypdf
+pdfplumber
+pymupdf
+python-docx
+chromadb
+llama-index
+llama-index-vector-stores-chroma
+llama-index-embeddings-huggingface
+sentence-transformers
+python-dotenv
+google-generativeai
