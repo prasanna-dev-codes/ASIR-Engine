@@ -19,4 +19,4 @@ delete_file/
 .vscode/
 
 # Output files
-output/
+output/.DS_Store
