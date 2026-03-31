@@ -1,3 +1,4 @@
+### Vector Retriever
 pypdf
 pdfplumber
 pymupdf
@@ -9,3 +10,43 @@ llama-index-embeddings-huggingface
 sentence-transformers
 python-dotenv
 google-generativeai
+
+
+### Query Classifier
+# ASIR-RAG Query Classifier — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# NLP processing
+spacy==3.7.4
+# After installing, run: python -m spacy download en_core_web_sm
+
+# LLM communication (Ollama REST API)
+requests==2.31.0
+
+# Embeddings (for XGBoost feature vectors)
+sentence-transformers==2.7.0
+
+# Machine learning — Phase 2 XGBoost classifier
+xgboost==2.0.3
+scikit-learn==1.4.2
+joblib==1.3.2
+
+# Numerical computing
+numpy==1.26.4
+
+# Data handling (used in XGBoost training pipeline)
+pandas==2.2.2
+
+# LlamaIndex (for vector retrieval — your team's other modules)
+llama-index==0.10.40
+llama-index-vector-stores-chroma==0.1.6
+llama-index-embeddings-huggingface==0.2.2
+
+# Vector database
+chromadb==0.4.24
+
+# UI
+streamlit==1.35.0
+
+# Utilities
+python-dotenv==1.0.1
